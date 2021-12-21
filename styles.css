@@ -1,0 +1,48 @@
+/* Michael Mouet - JS Build a Quiz */
+
+body {
+  font-family: Arial;
+}
+
+select {
+  margin: 15px 0;
+}
+.section-1 {
+  width: 40vw;
+}
+
+.title {
+  font-size: 35px;
+text-align: center;
+}
+
+.q-container {
+  padding: 10px 0;
+}
+
+.question {
+  font-size: 20px;
+}
+
+
+.btn {
+  margin: 3px 0;
+}
+
+
+
+@media (max-width: 767.98px) {
+
+  select {
+	margin: 15px 0;
+  }
+
+  .section-1 {
+	width: 100vw
+  }
+
+  .button-div {
+  	display: flex;
+  	justify-content: center;
+  }
+}
